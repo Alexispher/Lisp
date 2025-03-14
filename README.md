@@ -59,3 +59,84 @@ print("Hello, World!")
 Lisp
 
 (format t "Hello, World!~%")
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+The main function of the program is called main.
+
+It is defined using the keyword that indicates the creation of a function.
+
+The main function does not take parameters.
+
+
+
+The code uses a structure to declare local variables.
+
+The declared variables are
+
+
+num1: will store the first number entered by the user.
+
+num2: will store the second number entered by the user.
+
+result: will store the sum of num1 and num2.
+
+
+
+The program displays a message asking the user to enter the first number.
+
+The number entered by the user is stored in the num1 variable.
+
+Then, the program prompts the user to enter the second number.
+
+The entered number is stored in the num2 variable.
+
+
+The program performs the sum of the values stored in num1 and num2.
+
+The sum result is stored in the result variable.
+
+
+
+The program displays a separator line.
+
+Then, it prints the message containing the sum result.
+
+After that, it displays another separator line for visual organization.
+
+
+
+The main function is automatically called when loading the file.
+
+This prevents the user from having to manually type the function name in the interpreter.
+
+
+
+~A means "Any" (anything).
+
+It converts the passed argument into a string and prints it in place of the marker.
+
+
+
+If the user enters 15 and 20, the output will be:
+
+
+Enter the first number: 15
+
+Enter the second number: 20
+
+-----------------------------
+Sum calculation result: 35
+-----------------------------
+
+
+
+~A: Converts result to a string and displays it.
+
+~%: Adds a new line after printing.
+
+~D: Formats integer numbers.
+
+~F: Formats floating-point numbers.
+
+~S: Maintains the original Lisp notation.
